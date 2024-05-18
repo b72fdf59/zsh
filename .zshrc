@@ -96,11 +96,21 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+
+
+### PERSONAL CONFIGS START
+
+## alias
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="eza"
+alias vim="nvim"
+alias vi="nvim"
 
 ## evals
 
 eval "$(/usr/local/bin/brew shellenv)"
 eval "$(zoxide init zsh)"
+
+### PERSONAL CONFIGS END
